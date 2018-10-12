@@ -1,4 +1,4 @@
-package br.edu.iftm.extensaoSTS.resouces;
+package br.edu.iftm.extensaoSTS.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

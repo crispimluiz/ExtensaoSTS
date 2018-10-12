@@ -1,4 +1,4 @@
-package ber.edu.iftm.extensaoSTS;
+package br.edu.iftm.extensaoSTS;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

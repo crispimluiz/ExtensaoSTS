@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.edu.iftm.extensaoSTS.domain.Atividade;
+import br.edu.iftm.extensaoSTS.services.AtividadeService;
 
 @RestController
 @RequestMapping(value="/atividade")
