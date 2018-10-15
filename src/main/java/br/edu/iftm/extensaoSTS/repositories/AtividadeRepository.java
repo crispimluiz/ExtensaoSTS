@@ -10,7 +10,8 @@ import br.edu.iftm.extensaoSTS.domain.Atividade;
 
 @Repository
 public interface AtividadeRepository extends JpaRepository<Atividade, Integer>{
-	
+	//Com essa Class não preciso criar um DAO - persistencia como banco de dados
 	//@Query("Select a from Atividade a Where a.nome like %nome%
 	public List<Atividade> findByNomeContaining(@Param("nome") String nome);
+	
 }
